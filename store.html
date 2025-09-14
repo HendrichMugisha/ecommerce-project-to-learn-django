@@ -101,38 +101,133 @@
             Our Store</h2>
     </section>
 
-    <!-- categories list & dropdown -->
-    <div class="container">
+    <div class="row">
+        <!-- categories list & dropdown -->
+        <div class="col col-3 m-2">
 
-        <div class="card" style="width: 18rem;">
-            <!-- <img src="..." class="card-img-top" alt="..."> -->
-            <div class="card-body">
-                <h5 class="card-title text-primary  fw-bold">
-                    Categories
-                    <button class="btn p-0 float-end" type="button" data-bs-toggle="collapse" data-bs-target="#category-list" aria-expanded="true" aria-controls="category-list">
-                        <i class="bi bi-chevron-down"></i>
-                    </button>
-                </h5>
-         
+            <div class="container">
+
+                <div class="card" style="width: 16rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                        <h5 class="card-title text-primary  fw-bold">
+                            Categories
+                            <button class="btn p-0 float-end" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#category-list" aria-expanded="true" aria-controls="category-list">
+                                <i class="bi bi-chevron-down"></i>
+                            </button>
+                        </h5>
+
+                    </div>
+                    <ul class="list-group list-group-flush border-0 collapse show" id="category-list">
+
+                        <li class="list-group-item border-0 "><a href="" class="text-dark text-decoration-none">All
+                                Products</a></li>
+                        <li class="list-group-item border-0"><a href=""
+                                class=" text-dark text-decoration-none">Shirts</a></li>
+                        <li class="list-group-item border-0"><a href="" class=" text-dark text-decoration-none">T
+                                Shirts</a></li>
+                        <li class="list-group-item border-0"><a href=""
+                                class=" text-dark text-decoration-none">Shoes</a></li>
+                        <li class="list-group-item border-0"><a href=""
+                                class=" text-dark text-decoration-none">Jeans</a></li>
+                        <li class="list-group-item border-0"><a href=""
+                                class=" text-dark text-decoration-none">Jackets</a></li>
+                    </ul>
+
+                </div>
             </div>
-            <ul class="list-group list-group-flush border-0 collapse show" id="category-list" >
-                
-                <li class="list-group-item border-0 "><a href="" class="text-dark text-decoration-none">All Products</a></li>
-                <li class="list-group-item border-0"><a href="" class=" text-dark text-decoration-none">Shirts</a></li>
-                <li class="list-group-item border-0"><a href="" class=" text-dark text-decoration-none">T Shirts</a></li>
-                <li class="list-group-item border-0"><a href="" class=" text-dark text-decoration-none">Shoes</a></li>
-                <li class="list-group-item border-0"><a href="" class=" text-dark text-decoration-none">Jeans</a></li>
-                <li class="list-group-item border-0"><a href="" class=" text-dark text-decoration-none">Jackets</a></li>
-            </ul>
-            
         </div>
+
+        <!-- items found section -->
+        <div class="col col-8 p-3">
+            <div class="container">
+                <p><span class="fw-bold">8</span> Items found</p>
+                <hr class="hr" />
+            </div>
+            <div class="row">
+                <!-- first column -->
+
+                <div class="col col-12 col-md-4" style="height: 20px;">
+                    <div class="card p-2">
+                        <img src="./images/ATX-Jeans_jH6EYxI.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text m-1">ATX Jeans</p>
+                            <h5 class="card-title m-0">$ 199</h5>
+                            <!-- <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-half text-warning"></i>
+                                <i class="bi bi-star text-warning"></i> -->
+
+                        </div>
+                        <a href="#" class="mt-2 btn btn-primary justify-content-end">View Details</a>
+                    </div>
+                </div>
+                <!--  end of first col -->
+                <div class="col col-12 col-md-4" style="height:px;">
+                    <div class="card p-2">
+                        <img src="./images/ATX-Jeans_jH6EYxI.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text m-1">ATX Jeans</p>
+                            <h5 class="card-title m-0">$ 199</h5>
+                            <!-- <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-half text-warning"></i>
+                                <i class="bi bi-star text-warning"></i> -->
+
+                        </div>
+                        <a href="#" class="mt-2 btn btn-primary justify-content-end">View Details</a>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-4" style="height:px;">
+                    <div class="card p-2">
+                        <img src="./images/ATX-Jeans_jH6EYxI.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text m-1">ATX Jeans</p>
+                            <h5 class="card-title m-0">$ 199</h5>
+                            <!-- <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-half text-warning"></i>
+                                <i class="bi bi-star text-warning"></i> -->
+
+                        </div>
+                        <a href="#" class="mt-2 btn btn-primary justify-content-end">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-group mt-4 mb-4" role="group" >
+                <button type="button" class="btn btn-outline-secondary">Previous</button>
+                <button type="button" class="btn btn-outline-secondary"><span class="text-primary">1</span> </button>
+                <button type="button" class="btn btn-outline-secondary"><span class="text-primary">2</span> </button>
+                <button type="button" class="btn btn-outline-secondary"><span class="text-primary">3</span> </button>
+                <button type="button" class="btn btn-outline-secondary"><span class="text-primary">Next</span> </button>
+            </div>
+
+
+        </div>
+
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
     <!-- footer -->
-    <footer class="p-5 border" style="position: relative; bottom: 0; width: 100%;">
-        <div class="container text-secondary text-center">
-            Developed with Love by Henry Mark
-            <p>A local man</p>
+    <footer class="p-5 border"">
+        <div class=" container text-secondary text-center">
+        Developed with Love by Henry Mark
+        <p>A local man</p>
         </div>
     </footer>
 
